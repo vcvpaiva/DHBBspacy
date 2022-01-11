@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>332570</sentences><tokens>10120424</tokens><words>10120424</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="77982" /><!-- o, ,, de, ., do, e, em, da, ser, que, ), (, parir, com, pelar -->
+  <forms unique="98874" /><!-- ,, de, ., a, do, e, em, da, o, no, que, ), (, na, para -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="19">
+    <tag name="">17</tag><!--  ,  -->
+    <tag name=" ">2</tag><!-- ,   -->
+    <tag name="ADJ">493100</tag><!-- seguinte, político, federal, novo, mesmo, primeiro, estadual, militar, nacional, brasileiro -->
+    <tag name="ADP">2171251</tag><!-- de, do, o, em, da, com, pelar, dos, ao, parir -->
+    <tag name="ADV">208658</tag><!-- não, ainda, também, mais, quando, então, depois, já, além, apenas -->
+    <tag name="AUX">147679</tag><!-- ser, ter, Foi, estar, seriar, haver, Era, estevar, iriar, Tendo -->
+    <tag name="CCONJ">257149</tag><!-- e, mas, ou, porém, contudo, entretanto, nem, portanto, todavia, e/ou -->
+    <tag name="DET">669367</tag><!-- o, seu, umar, suar, um, A, esse, outro, todo, cujo -->
+    <tag name="INTJ">136</tag><!-- Jornalista, ad, não, #, Basta, Ensaísta, Leve, Presidencialista, Qual, Abra -->
+    <tag name="NOUN">1899962</tag><!-- ano, governar, presidente, partir, dia, deputar, outubro, novembro, estar, mandatar -->
+    <tag name="NUM">327069</tag><!-- dois, um, 1964, três, 1979, 1930, 15, 1985, 2, 1994 -->
+    <tag name="PRON">153582</tag><!-- que, se, qual, o, onde, quem, ele, outro, lhe, isso -->
+    <tag name="PROPN">1493029</tag><!-- Partido, rio, Paulo, nacional, São, comissão, Brasil, janeiro, câmara, federal -->
+    <tag name="PUNCT">1380297</tag><!-- ,, ., ), (, », «, ”, “, -, ; -->
+    <tag name="SCONJ">124247</tag><!-- o, que, parir, de, por, ao, embora, após, em, pois -->
+    <tag name="SPACE">3636</tag><!--  ,   ,    ,       ,     ,      ,        ,         , ,           -->
+    <tag name="SYM">7155</tag><!-- %, R$, US$, $, Cr$, -, 9/11/1964, MW, U$, | -->
+    <tag name="VERB">783596</tag><!-- ter, assumir, eleito, passar, participar, tornou-se, exercer, fazer, realizar, deixar -->
+    <tag name="X">492</tag><!-- in, ’, joint, quo, non, venture, funding, etcétera, loan, natura -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="47">
+    <feat name=" " value="" upos=" ">1</feat><!--  -->
+    <feat name="Case" value="Acc" upos="ADV,AUX,PRON,VERB">93342</feat><!-- se, tornou-se, elegeu-se, filiou-se, candidatou-se, casou-se, o, tornando-se, reelegeu-se, formou-se -->
+    <feat name="Case" value="Dat" upos="AUX,PRON,VERB">2574</feat><!-- lhe, lhes, cabendo-lhe, pedindo-lhe, nos, me, comunicou-lhe, vos, foi-lhe, dando-lhe -->
+    <feat name="Case" value="Nom" upos="PRON">3618</feat><!-- ele, ela, eles, eu, elas, nós, você, deles, nele, vocês -->
+    <feat name="Definite" value="Def" upos="ADP,DET,PRON,SCONJ">1435698</feat><!-- do, da, a, o, no, na, dos, ao, à, os -->
+    <feat name="Definite" value="Ind" upos="ADP,DET">66896</feat><!-- uma, um, num, numa, outra, 8), Substituiu-o, dum, #, duma -->
+    <feat name="Degree" value="Cmp" upos="ADJ">2</feat><!-- mais -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,SCONJ,VERB,X">2106305</feat><!-- da, a, na, à, uma, as, das, sua, pela, que -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">3150367</feat><!-- do, o, no, dos, ao, que, os, pelo, partido, governo -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">23620</feat><!-- seria, teria, deveria, poderia, seriam, deveriam, teriam, iria, permaneceria, exerceria -->
+    <feat name="Mood" value="Imp" upos="VERB">6</feat><!-- Cuide, DETRAN-SE, Remove, antivarguista, invalidez, pós-1930 -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">469457</feat><!-- foi, era, assumiu, teve, tornou-se, passou, nasceu, deixou, foram, participou -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">16223</feat><!-- fosse, fossem, seja, tivesse, pudesse, tenha, houvesse, tivessem, pudessem, estivesse -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">874496</feat><!-- dos, os, as, das, que, nas, eleições, anos, aos, nos -->
+    <feat name="Number" value="Plur,Sing" upos="VERB">208</feat><!-- comunicando-lhes, solicitando-lhes, manteve-se, declarar-lhe, frustrou-lhe, julgá-los, Resta-nos, apresentando-lhe, burlara, cassou-lhe -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">5566939</feat><!-- do, da, o, a, no, na, foi, que, ao, à -->
+    <feat name="NumType" value="Card" upos="DET,NUM">326999</feat><!-- um, dois, 1964, três, 1979, 1930, 15, 1985, 2, 1994 -->
+    <feat name="NumType" value="Frac" upos="NUM">18</feat><!-- meia -->
+    <feat name="NumType" value="Mult" upos="NUM">25</feat><!-- cento, Abertas, Brasil-EUA, mensais -->
+    <feat name="NumType" value="Ord" upos="ADJ,NOUN,NUM">32940</feat><!-- primeiro, segundo, primeira, 1º, último, segunda, primeiros, terceiro, terceira, 1ª -->
+    <feat name="NumType" value="Range" upos="NUM">3</feat><!-- 1931-1940, Compraz-me, et -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">3220</feat><!-- eu, nós, me, nos, sou, estamos, temos, tenho, somos, tinha -->
+    <feat name="Person" value="1,3" upos="VERB">57</feat><!-- Resta-nos, coube-lhe, desempenhara, disse-lhe, Alistando-me, Confie-me, Confrangem-nos, Deixou-me, Disse-me, Pretender-se-ia -->
+    <feat name="Person" value="2" upos="PRON,VERB">50</feat><!-- vos, te, Exonerou-se, Publicou, vós, Apreendeu, Cuide, Cumpriste, DETRAN-SE, Interrompeu -->
+    <feat name="Person" value="3" upos="ADP,ADV,AUX,PRON,VERB">561445</feat><!-- foi, se, era, assumiu, teve, tornou-se, passou, nasceu, deixou, foram -->
+    <feat name="Polarity" value="Neg" upos="ADV">21442</feat><!-- não, nada, Severamente, tencionasse, tenente-brigadeiro-do-ar, vinculava-se -->
+    <feat name="PronType" value="Art" upos="ADP,DET,PRON,PROPN,SCONJ">1515339</feat><!-- do, da, a, o, no, na, dos, ao, à, os -->
+    <feat name="PronType" value="Dem" upos="ADP,DET,PRON,SCONJ">64292</feat><!-- nesse, desse, o, essa, nessa, esse, dessa, este, daquele, neste -->
+    <feat name="PronType" value="Emp" upos="DET">1985</feat><!-- próprio, própria, próprios, de­putado -->
+    <feat name="PronType" value="Ind" upos="ADP,ADV,DET,PRON">29759</feat><!-- outros, outras, alguns, outro, vários, qualquer, várias, diversas, diversos, algumas -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">190</feat><!-- que, quem, qual, quanto, quais, Quantos, breve, censurando-se, nelas, se -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">1014</feat><!-- nenhum, nenhuma, MEC-USAID, Consideravam-se, Misturavam-se -->
+    <feat name="PronType" value="Prs" upos="ADP,ADV,AUX,DET,PRON,VERB">172502</feat><!-- sua, seu, se, tornou-se, seus, suas, elegeu-se, filiou-se, ele, candidatou-se -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">99817</feat><!-- que, qual, onde, quem, quais, cuja, cujo, cujos, cujas, tudo -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">10342</feat><!-- todos, todo, todas, ambos, toda, cada, ambas, Tal, tudo, DAs -->
+    <feat name="Reflex" value="Yes" upos="PRON">2</feat><!-- se -->
+    <feat name="SPACE" value="" upos="">15</feat><!--  ,   ,    ,       , ,     ,      ,        ,         ,           -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">2060</feat><!-- será, suplementar, poderá, for, serão, deverá, terá, concorrerem, forem, poderão -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">80493</feat><!-- era, havia, estava, tinha, eram, fosse, vinha, haviam, estavam, previa -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">364899</feat><!-- foi, assumiu, teve, tornou-se, passou, nasceu, deixou, participou, votou, elegeu-se -->
+    <feat name="Tense" value="Pqp" upos="AUX,VERB">5514</feat><!-- fora, fizera, passara, recebera, tivera, tornara, chegara, deixara, acabara, ocorrera -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">24174</feat><!-- é, tem, seja, são, tenha, há, pode, está, deve, estão -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">509306</feat><!-- foi, era, assumiu, teve, tornou-se, passou, nasceu, deixou, foram, participou -->
+    <feat name="VerbForm" value="Ger" upos="AUX,PRON,SCONJ,VERB">82176</feat><!-- sendo, tendo, assumindo, tornando-se, exercendo, passando, obtendo, permanecendo, deixando, visando -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">121635</feat><!-- ser, ter, assumir, exercer, integrar, ocupar, partir, fazer, concorrer, participar -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">218090</feat><!-- eleito, nomeado, sido, promovido, empossado, reeleito, substituído, realizada, designado, realizado -->
+    <feat name="Voice" value="Pass" upos="ADJ,NOUN,VERB">105310</feat><!-- eleito, nomeado, promovido, substituído, designado, empossado, derrotado, reeleito, indicado, formada -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="39">
+    <dep name="">2</dep>
+    <dep name="ROOT">329520</dep>
+    <dep name="SPACE">2</dep>
+    <dep name="_">15</dep>
+    <dep name="acl">124381</dep>
+    <dep name="acl:relcl">83793</dep>
+    <dep name="advcl">143506</dep>
+    <dep name="advmod">193126</dep>
+    <dep name="amod">453800</dep>
+    <dep name="appos">207129</dep>
+    <dep name="aux">20871</dep>
+    <dep name="aux:pass">73215</dep>
+    <dep name="case">2153247</dep>
+    <dep name="cc">245859</dep>
+    <dep name="ccomp">21337</dep>
+    <dep name="compound">1844</dep>
+    <dep name="conj">288295</dep>
+    <dep name="cop">53302</dep>
+    <dep name="csubj">2187</dep>
+    <dep name="dep">29458</dep>
+    <dep name="det">663905</dep>
+    <dep name="discourse">73</dep>
+    <dep name="expl">21817</dep>
+    <dep name="fixed">39604</dep>
+    <dep name="flat">5460</dep>
+    <dep name="flat:foreign">218</dep>
+    <dep name="flat:name">532149</dep>
+    <dep name="iobj">10183</dep>
+    <dep name="mark">128424</dep>
+    <dep name="nmod">1329960</dep>
+    <dep name="nsubj">251000</dep>
+    <dep name="nsubj:pass">50091</dep>
+    <dep name="nummod">73471</dep>
+    <dep name="obj">382088</dep>
+    <dep name="obl">636212</dep>
+    <dep name="obl:agent">56513</dep>
+    <dep name="parataxis">36546</dep>
+    <dep name="punct">1380478</dep>
+    <dep name="xcomp">97343</dep>
+  </deps>
+</treebank>
